@@ -1,0 +1,39 @@
+.SearchApp {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.SearchApp ul {
+    list-style: none;
+    display: flex;
+}
+
+.SearchApp ul > li {
+    margin-right: 0.3em;
+    color: blue;
+    user-select: none;
+    cursor: pointer;
+}
+
+.pagControls {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.pagControls span {
+    color: #6894B1;
+    font-size: 30px;
+    display: block;
+    line-height: 7px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagControls span:hover {
+    color: #4b728c;
+}

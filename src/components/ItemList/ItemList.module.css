@@ -1,0 +1,27 @@
+.ItemList div:nth-child(2n) {
+    background-color: rgba(244,246,250,1);
+    border: 2px solid #E8EFF4;
+}
+
+.ItemList {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    box-shadow: 0 0 35px rgba(0,0,0,0.5);
+}
+
+.ItemList img {
+    padding-right: 25%;
+}
+
+.ItemList div:hover {
+    background-color: rgb(154, 156, 160);
+}
+
+.ItemList .MuiTypography-subheading-104 {
+    font-weight: bold;
+}
+
+.ItemName span {
+    font-weight: bold;
+    color: #1B374A;
+}
